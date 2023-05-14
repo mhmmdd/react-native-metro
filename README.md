@@ -30,3 +30,7 @@ $ java -version
 #OpenJDK Runtime Environment Corretto-17.0.7.7.1 (build 17.0.7+7-LTS)
 #OpenJDK 64-Bit Server VM Corretto-17.0.7.7.1 (build 17.0.7+7-LTS, mixed mode, sharing)
 ```
+
+My emulator: Pixel 6 API 31
+
+## 2. Add [ReactNativeMetroContext.ts](src%2Fcontext%2FReactNativeMetroContext.ts) and [ReactNativeMetroContextProvider.tsx](src%2Fcontext%2FReactNativeMetroContextProvider.tsx)
