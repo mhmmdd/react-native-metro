@@ -34,3 +34,31 @@ $ java -version
 My emulator: Pixel 6 API 31
 
 ## 2. Add [ReactNativeMetroContext.ts](src%2Fcontext%2FReactNativeMetroContext.ts) and [ReactNativeMetroContextProvider.tsx](src%2Fcontext%2FReactNativeMetroContextProvider.tsx)
+
+## 3. Configure global axios network configuration for network debugging
+```bash
+$ npm install @types/react @types/react-native 
+$ npm install axios
+$ npm install prettier --save-dev
+$ npm i --save-dev reactotron-react-native
+````
+
+## 4. Install Flipper for debugging
+```bash
+$ npm install --save-dev flipper
+```
+Install Open SSL [here](https://slproweb.com/products/Win32OpenSSL.html).
+https://slproweb.com/download/Win64OpenSSL_Light-3_1_0.msi
+
+Add Open SSL to the PATH environment variable
+```bash
+# C:\Program Files\OpenSSL-Win64\bin
+$ export PATH=$PATH:/c/Program\ Files/OpenSSL-Win64/bin
+```
+https://github.com/facebook/flipper/blob/cd67ce59f7dd70cbf459f0d4698071af6ee0abc8/desktop/flipper-server-core/src/server/utilities.tsx#LL56C1-L57C51
+
+
+## 5. Image Save
+```shell
+npm install @react-native-camera-roll/camera-roll react-native-permissions react-native-fs
+```
